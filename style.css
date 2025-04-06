@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --color60: #f5f5f5;
+    --color30: #2D2C38;
+    --color10: #CB9974;
+    --font-title:
+        "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800px;
+    font-style: normal;
+    font-size: 2rem;
+    --font-text:
+        "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+body {
+    max-width: 1400px;
+    background: var(--color60);
+    font-family: var(--font-text);
+    font-size: 1rem;
+
+}
+
+header {
+    background-color: var(--color30);
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px;
+}
+
+header h3 {
+    color: var(--color10);
+    font-family: var(--font-title);
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+header li {
+    padding-left: 50px;
+}
+
+header a {
+    color: var(--color60);
+    text-decoration: none;
+}
+
+header a:hover {
+    color: var(--color10);
+}
+
+.botao {
+    background-color: var(--color10);
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    color: var(--color60);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    border: #cb9a7400 solid 2px;
+}
+
+.botao:hover {
+    background-color: var(--color60);
+    color: var(--color30);
+    border: #CB9974 solid 2px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+.sessao-topo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 120px;
+    padding: 10px 0px;
+}
+
+.sessao-topo img {
+    width: 200px;
+    height: auto;
+}
+
+.sessao-topo h1 {
+    font-family: var(--font-title);
+    font-size: 2rem;
+    color: var(--color30);
+    margin: 10px 0px;
+}
+
+.sessao-topo p {
+    font-size: 1.2rem;
+    color: var(--color30);
+    margin: 10px 0px;
+}
+
+.sessao-sobre {
+    margin: 20px 120px;
+}
+
+h2 {
+    font-family: var(--font-title);
+    font-size: 1.5rem;
+    color: var(--color30);
+    margin: 10px 0px;
+}
+
+.sessao-sobre article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sessao-sobre article p {
+    width: 800px;
+    height: auto;
+    padding-left: 40px;
+    font-family: var(--font-text);
+}
+
+.sessao-atuacao {
+    margin: 20px 120px;
+}
+
+.sessao-atuacao article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+
+.sessao-atuacao div {
+    background-color: var(--color10);
+    width: 215px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sessao-atuacao div img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.sessao-atuacao div p {
+    color: var(--color60);
+    text-align: center;
+}
+
+.contato {
+    margin: 20px 120px;
+}
+
+.sessao-contato {
+    margin: 20px 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinha os articles no topo */
+}
+
+.sessao-contato article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sessao-contato article div {
+    background-color: var(--color10);
+    width: 300px;
+    height: 115px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--color60);
+}
+
+.sessao-contato article h2 {
+    /* número no card contato */
+    color: var(--color60);
+}
+
+.sessao-contato p {
+    width: 200px;
+}
+
+.sessao-contato form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 700px;
+}
+
+.sessao-contato label,
+.sessao-contato input,
+.sessao-contato select,
+.sessao-contato textarea {
+    font-family: var(--font-text);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sessao-contato input,
+.sessao-contato select,
+.sessao-contato textarea {
+    border: var(--color10) solid 2px;
+    resize: none; /* Impede o redimensionamento */
+}
+
+.sessao-contato button {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: var(--color30);
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px;
+}
+
+footer p {
+    color: var(--color10);
+    font-family: var(--font-title);
+}
+
+.icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.icone-rodape {
+    position: relative; /* Para o posicionamento absoluto do SVG */
+    width: 40px;
+    height: 40px;
+}
+
+.icone-rodape svg {
+    display: block; /* Remove espaços indesejados abaixo do SVG */
+    width: 100%; /* Faz o SVG ocupar todo o espaço 40px */
+}
+
+.icone-rodape img {
+    position: absolute; /* Posiciona a imagem em relação ao svg */
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta o centro exato da imagem */
+    width: 24px; /* Tamanho desejado para o ícone */
+    height: 24px; /* Mantém proporção */
+    object-fit: contain; /* Garante que a imagem caiba dentro das dimensões */
+}
+
+.icone-rodape:hover svg {
+    filter: brightness(0.8); /* Efeito de escurecimento ao passar o mouse */
+}

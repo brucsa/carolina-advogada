@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Advogada - Dra. Carolina Menezes</title>
+</head>
+
+<body>
+    <header id="inicio">
+        <h3>Dra. Carolina Menezes</h3>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#atuacao">Atuação</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- sessão 1 - Topo -->
+    <section class="sessao-topo">
+        <img src="Imagens/logo-direito.png" alt="Simbolo da Justiça">
+        <h1>Apoio jurídico humano e eficiente para você e sua família.</h1>
+        <p>Especialista em Direito de Família e Sucessões.</p>
+        <a href="#" class="botao">Agende sua consulta</a>
+    </section>
+
+    <!-- sessão 2 - Sobre a Dra -->
+    <section class="sessao-sobre" id="sobre">
+        <h2>Sobre a Dra. Carolina</h2>
+        <article>
+            <img src="Imagens/dra-carolina.png" alt="Foto da Dra Carolina Menezes">
+            <div>
+                <p>Com mais de 10 anos de experiência, Dra. Carolina Menezes atua com empatia, ética e dedicação em
+                    causas
+                    familiares. Especialista em Direito de Família e Sucessões, presta um atendimento personalizado,
+                    acolhedor e
+                    estratégico, sempre respeitando a sensibilidade que envolve cada situação.</p>
+                <p>Pós-graduada pela FGV, acompanha de perto cada etapa do processo, buscando soluções jurídicas claras
+                    e
+                    justas. Acredita que cada cliente carrega uma história única, que merece ser ouvida e tratada com o
+                    máximo
+                    cuidado.</p>
+            </div>
+        </article>
+    </section>
+
+    <!-- Sessão 3 - Atuação -->
+    <section class="sessao-atuacao" id="atuacao">
+        
+        <h2>Áreas de atuação</h2>
+        <article>
+            <div>
+                <img src="Imagens/icone-divorcio.svg" alt="ícone de divórcio">
+                <p>Divórcios</p>
+            </div>
+
+            <div>
+                <img src="Imagens/icone-pensao.svg" alt="ícone de dinheiro">
+                <p>Pensão alimentícia</p>
+            </div>
+
+            <div>
+                <img src="Imagens/icone-guarda-e-visitacao.svg" alt="ícone de Família">
+                <p>Guarda e visitação</p>
+            </div>
+
+            <div>
+                <img src="Imagens/icone-inventario.svg" alt="ícone de Papel/Folha">
+                <p>Inventários</p>
+            </div>
+
+            <div>
+                <img src="Imagens/icone-testamento.svg" alt="ícone de Testamento">
+                <p>Testamentos</p>
+            </div>
+        </article>
+    </section>
+
+    <!-- Sessão 4 - Contato -->
+    <h2 id="contato" class="contato">Contato</h2>
+    <p class="contato">Como funciona o atendimento?</p>
+    <section class="sessao-contato">
+        <article>
+            <div>
+                <h2>1</h2>
+                <p>Preencha o formulário de contato</p>
+            </div>
+
+            <div>
+                <h2>2</h2>
+                <p>Retorno em até 24h úteis</p>
+            </div>
+
+            <div>
+                <h2>3</h2>
+                <p>Consulta online ou presencial</p>
+            </div>
+        </article>
+
+        <article>
+            <form action="processador.php" method="get">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required placeholder="Digite seu nome">
+
+                <label for="tel">Telefone</label>
+                <input type="tel" name="tel" id="tel" required placeholder="Digite seu telefone">
+
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required placeholder="Digite seu e-mail">
+
+                <label for="assunto">Assunto</label>
+                <select name="assunto" id="assunto" required>
+                    <option value="divorcio">Divórcio</option>
+                    <option value="pensao">Pensão alimentícia</option>
+                    <option value="guarda">Guarda e visitação</option>
+                    <option value="inventario">Inventário</option>
+                    <option value="testamento">Testamento</option>
+                </select>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea maxlength="500" name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+
+                <button type="submit" class="botao">Enviar</button>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <div>
+            <p>Dra Carolina Menezes</p>
+            <p>OAB/SP 123456</p>
+        </div>
+
+        <div>
+            <p>(11) 99999-9999</p>
+            <p>dracarolina@contato.com</p>
+        </div>
+
+        <div class="icones">
+            <div class="icone-rodape">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                    <circle cx="20" cy="20" r="20" fill="#CB9974" />
+                </svg>
+                <img src="Imagens/icone-linkedin.svg" alt="ícone linkedin" class="icone">
+            </div>
+            <div class="icone-rodape">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                    <circle cx="20" cy="20" r="20" fill="#CB9974" />
+                </svg>
+                <img src="Imagens/icone-instagram.svg" alt="ícone instagram">
+            </div>
+            <div class="icone-rodape">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                    <circle cx="20" cy="20" r="20" fill="#CB9974" />
+                </svg>
+                <img src="Imagens/icone-whatsapp.svg" alt="ícone whatsapp">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
