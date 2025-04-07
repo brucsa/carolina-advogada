@@ -40,14 +40,16 @@ Foi desenvolvido com foco em boas práticas de UI/UX, código organizado e exper
   - Formulário de contato funcional (HTML/CSS)  
   - Rodapé com informações de contato e redes sociais  
 - Tipografia personalizada com Google Fonts  
-- Design planejado para futura responsividade  
+- Design planejado para futura responsividade
+- Menu hambúrguer funcional para dispositivos móveis (implementado com JavaScript)
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
 - HTML5 semântico  
-- CSS3 com variáveis e organização modular  
+- CSS3 com variáveis e organização modular
+- JavaScript para interatividade (menu hambúrguer)
 - Google Fonts (Jost)  
 - SVGs e imagens vetoriais personalizadas  
 - Figma (para prototipagem do layout)  
@@ -66,4 +68,5 @@ Foi desenvolvido com foco em boas práticas de UI/UX, código organizado e exper
 │ ├── icone-testamento.svg
 │ └── ícones de redes sociais
 ├── index.html
-└── style.css
+├── style.css
+└── script.js
