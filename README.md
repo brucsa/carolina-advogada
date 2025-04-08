@@ -57,16 +57,29 @@ Foi desenvolvido com foco em boas práticas de UI/UX, código organizado e exper
 ---
 
 ## 📁 Estrutura de Pastas
+
 📦 Projeto Dra. Carolina Menezes
+
 ├── Imagens/
+
 │ ├── logo-direito.png
+
 │ ├── dra-carolina.png
+
 │ ├── icone-divorcio.svg
+
 │ ├── icone-pensao.svg
+
 │ ├── icone-guarda-e-visitacao.svg
+
 │ ├── icone-inventario.svg
+
 │ ├── icone-testamento.svg
+
 │ └── ícones de redes sociais
+
 ├── index.html
+
 ├── style.css
+
 └── script.js
